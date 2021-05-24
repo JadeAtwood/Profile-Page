@@ -1,0 +1,68 @@
+
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+.navList{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    min-height: 1em;
+    align-items: center;
+    list-style: none;
+}
+
+#SecretTrick{
+    color: rgb(0, 0, 0);
+}
+
+#signOut{
+    background-color:blue;
+}
+
+/*   --------------after nav bar------------------------- */
+.Wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: viewport;
+    padding: 1em;
+    align-items:center;
+    justify-content:space-around;
+}
+
+
+.Container{
+    display: flex;
+    height: 500px;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border: width 1px;
+    border-color: black;
+}
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    width: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.Right{
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex: 1;
+    width: 200px;    
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
