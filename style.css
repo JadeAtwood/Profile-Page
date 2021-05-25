@@ -1,65 +1,122 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .navList {
-    background-color: black;
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    padding: 10px;
-    min-height: 1em;
-    align-items: center;
-    list-style: none;
-    width: viewport;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+  min-height: 1em;
+  align-items: center;
+  list-style: none;
+  width: viewport;
 }
 
 #SecretTrick {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 #signOut {
-    background-color: blue;
+  background-color: blue;
 }
 /*   --------------after nav bar------------------------- */
 .Wrapper {
-    border-width: 1px;
-    border-color: black;
-    background-color: gold;
-    align-items: start;
-    border-style: solid;
-    width: viewport;
-    height: 700px;
-    padding: 1em;
+  width: viewport;
+  min-height: 400px;
+  margin: 1em 1em 1em 1em;
 }
 
 .Container {
-    display: flex;
-    min-width: 380px;
-    min-height: 480px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: royalblue;
-    justify-content: space-between;
+  display: flex;
+  min-width: 600px;
+  min-height: 450px;
+  justify-content: space-evenly;
+  margin: 1em;
+  padding: 1em;
 }
 
 .Left {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    width: 3000px;
-    min-height: 200px;
-    background-color: transparent;
+  min-width: 200px;
+  min-height: 200px;
+  justify-content: space-around;
 }
-.Right {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    width: 200px;
-    min-height: 200px;
-    background-color: transparent;
+.card {
+  border: solid blue 3px;
+}
+#pic {
+  width: 400px;
+  height: 270px;
 }
 
-/* ------User Card----- */
+.lowerLeftConsolidated {
+  margin-top: 1em;
+  border: solid blue 3px;
+}
+.TitleBar {
+  background-color: darkgrey;
+  color: ghostwhite;
+  text-emphasis-style: bold;
+}
+
+.myRequests {
+  height: 25px;
+  color: Blue;
+  background-color: white;
+}
+
+#userPic {
+  height: 25px;
+}
+
+.ConnectionRequests {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 25px;
+  background-color: darkgrey;
+  color: white;
+}
+
+.Requests {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 25px;
+  color: Black;
+  text-emphasis-style: bold;
+  background-color: white;
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 400px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.rightTop {
+  margin-bottom: 1em;
+  border: solid 3px blue;
+  width: 190px;
+}
+
+.rightBottom {
+  margin-top: 6em;
+  min-height: 4em;
+  border: solid 3px blue;
+  margin-bottom: 1em;
+  width: 190px;
+}
+.viewMore {
+  height: 1.5em;
+  text-emphasis: bold;
+  text-decoration: underline;
+  border-top: solid blue 3px;
+  color: blue;
+}
